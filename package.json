@@ -1,0 +1,23 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/SergeyY1994/js-react-developer-project-12/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/SergeyY1994/js-react-developer-project-12/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "start-server -s ./frontend/build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyY1994/js-react-developer-project-12.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyY1994/js-react-developer-project-12/issues"
+  },
+  "homepage": "https://github.com/SergeyY1994/js-react-developer-project-12#readme",
+  "dependencies": {
+    "@hexlet/chat-server": "^2.0.0"
+  }
+}
