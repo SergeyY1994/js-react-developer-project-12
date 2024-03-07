@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "start-server -s ./frontend/build"
+    "start": "start-server -s ./frontend/build",
+    "build-frontend": "cd frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
