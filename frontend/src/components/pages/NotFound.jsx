@@ -1,4 +1,5 @@
 import { Container, Image, Row, Col } from 'react-bootstrap';
+
 const NotFound = () => {
     return (
         <Container className="text-center">
