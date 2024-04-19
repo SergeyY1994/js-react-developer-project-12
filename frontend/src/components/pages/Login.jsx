@@ -12,7 +12,7 @@ const validationSchema = Yup.object({
        .min(6, 'Пароль должен быть не менее 6 символов'),
    });
 
-const Login= () => {
+const Login = () => {
   const navigate = useNavigate();
     
   return (
